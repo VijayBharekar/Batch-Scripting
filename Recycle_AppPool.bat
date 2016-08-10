@@ -9,7 +9,6 @@ IF %M%=="N" GOTO exit
 IF %M%=="Y" GOTO exit
 :apppool
 appcmd recycle apppool /apppool.name:<app pool name>
-echo "Successfully recycled PartnerServicesAppPool"
 pause 
 :exit
 exit
